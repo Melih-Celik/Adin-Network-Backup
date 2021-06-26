@@ -16,7 +16,7 @@ This backup system supports this devices:
 Use crontab on Ubuntu to schedule the program to work automatically.
 
 If network device has old ssh ciphers change "~/.ssh/config".
-##USAGE
+## USAGE
 
 Change devices and customer names to your desire. I could get it from an xml but I was on short a time so just made it this way.
 Change mail info on backmail.py.
