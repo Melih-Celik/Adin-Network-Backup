@@ -1,7 +1,7 @@
 # Adin-Network-Backup
 
-This program aims to automate network switch backups. Features of the program: 
--Taking backup of the device and sending it through FTP.
+This program aims to automate network switch backups. Features of the program:<br />
+-Taking backup of the device and sending it through FTP.<br />
 -Sending mail if any error occures(FTP connection, Login to switch via ssh, Trying to connect to FTP multiple times in one day)
 -If error is not related to any of this, program creates a log file of what happened and keeps it locally.
 -Working on a schedule if crontab is used on "backup.sh"
