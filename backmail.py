@@ -5,7 +5,7 @@ from email.mime.multipart import MIMEMultipart
 def send_mail(client,device,error):
     sender_email = "sendermail@outlook.com"
     receiver_email = "receivermail@outlook.com"
-    password = "123654Wq!!"
+    password = "senderpassword"
 
     message = MIMEMultipart("alternative")
     message["Subject"] = "Adin Backup Fail"
